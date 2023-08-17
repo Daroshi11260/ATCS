@@ -1,0 +1,3 @@
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Vowelless/cmake-build-debug/CMakeFiles/Vowelless.dir
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Vowelless/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Vowelless/cmake-build-debug/CMakeFiles/rebuild_cache.dir
