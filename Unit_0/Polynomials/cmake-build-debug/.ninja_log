@@ -1,0 +1,7 @@
+# ninja log v5
+10	1729	7144425602815571	CMakeFiles/Polynomials.dir/Poly.cpp.obj	855b1a6d75c6fe
+4	729	7144426125637908	CMakeFiles/Polynomials.dir/main.cpp.obj	fe23c285362ffb43
+730	1001	7144426128317967	Polynomials.exe	38a0a0ad8ff71b4d
+12	1005	7144431637182928	CMakeFiles/Polynomials.dir/main.cpp.obj	fe23c285362ffb43
+23	1408	7144431641212940	CMakeFiles/Polynomials.dir/Poly.cpp.obj	855b1a6d75c6fe
+1408	1643	7144431643512903	Polynomials.exe	38a0a0ad8ff71b4d

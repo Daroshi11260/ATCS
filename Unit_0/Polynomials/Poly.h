@@ -5,12 +5,35 @@
 #ifndef POLYNOMIALS_POLY_H
 #define POLYNOMIALS_POLY_H
 
-namespace std {
+#include <iostream>
+#include <vector>
 
-    class Poly {
+using namespace std;
 
+class Poly {
+
+public:
+    Poly(int coeff, int exp);
+    void add(Poly p);
+    void multiply(int c);
+    int eval(int x) const;
+    string tostring() const;
+    ~Poly();
+
+    const Poly& operator += (const Poly &rhs);
+
+private:
+    struct Term {
+        int coeff;
+        int exp;
     };
 
-} // std
+    vector<Term> terms;
+
+    void add(Term t);
+
+
+};
+
 
 #endif //POLYNOMIALS_POLY_H

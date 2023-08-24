@@ -1,0 +1,3 @@
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Quadratic_Formula/cmake-build-debug/CMakeFiles/Quadratic_Formula.dir
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Quadratic_Formula/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Quadratic_Formula/cmake-build-debug/CMakeFiles/rebuild_cache.dir
