@@ -4,22 +4,22 @@
 
 #include "Celebrity.h"
 
-Celebrity::Celebrity() {
+using namespace std;
 
+Celebrity::Celebrity(string input) {
+    
 }
 
 string Celebrity::getName() {
-    return std::string();
+    return string();
 }
 
 string Celebrity::getClue() {
-    return std::string();
+    string clue = clues[0];
+    clues.erase(clues.begin());
+    return clue;
 }
 
 Celebrity::~Celebrity() {
 
-}
-
-string Celebrity::getClue() {
-    return std::string();
 }

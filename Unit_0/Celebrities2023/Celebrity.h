@@ -11,7 +11,7 @@ using namespace std;
 
 class Celebrity {
 public:
-    Celebrity();
+    Celebrity(string input);
     string getName();
     string getClue();
     ~Celebrity();
@@ -19,7 +19,6 @@ public:
 private:
     string name;
     vector<string> clues;
-    string getClue();
 };
 
 
