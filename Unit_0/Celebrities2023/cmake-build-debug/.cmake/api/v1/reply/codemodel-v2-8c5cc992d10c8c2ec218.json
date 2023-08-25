@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Celebrities::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Celebrities-Debug-7c45b7f10de4894b63c1.json",
+					"jsonFile" : "target-Celebrities-Debug-10c556790b5c3da7d6ca.json",
 					"name" : "Celebrities",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Celebrities2023/cmake-build-debug",
-		"source" : "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Celebrities2023"
+		"build" : "C:/Users/yoshi/Downloads/ATCS/Unit_0/Celebrities2023/cmake-build-debug",
+		"source" : "C:/Users/yoshi/Downloads/ATCS/Unit_0/Celebrities2023"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }

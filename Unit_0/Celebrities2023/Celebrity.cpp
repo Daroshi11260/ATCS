@@ -6,12 +6,21 @@
 
 using namespace std;
 
-Celebrity::Celebrity(string input) {
+Celebrity::Celebrity(string n, string clueString) {
+    name = n;
+    string clueString = clues;
+    for (int i = 0; i < clueString.length(); i++){
+        if (clueString[i] == ','){
+            clues.push_back(clueString.substr(0, i));
+            clueString = clueString.substr(i + 1, clueString.length());
+            i = 0;
+        }
+    }
     
 }
 
 string Celebrity::getName() {
-    return string();
+    return name;
 }
 
 string Celebrity::getClue() {

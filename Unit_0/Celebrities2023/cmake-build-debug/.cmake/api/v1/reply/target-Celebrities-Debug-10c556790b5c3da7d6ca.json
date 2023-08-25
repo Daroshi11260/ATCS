@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Celebrities2023/Celebrities.exe"
+			"path" : "C:/Users/yoshi/Downloads/ATCS/Unit_0/Celebrities2023/Celebrities.exe"
 		},
 		{
-			"path" : "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_0/Celebrities2023/Celebrities.pdb"
+			"path" : "C:/Users/yoshi/Downloads/ATCS/Unit_0/Celebrities2023/Celebrities.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,10 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
-				},
-				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
