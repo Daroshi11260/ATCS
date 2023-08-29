@@ -9,11 +9,13 @@ struct Node {
 
 int sum(Node* head);
 int length(Node* head);
+void print(Node* head);
+void removeLast(Node* &head);
 
 int main() {
     cout << "Hello, LinkedList!" << endl;
 
-    Node* head;
+    Node* head = nullptr;
     /*
     head = new Node;
     head->value = 4;
@@ -39,6 +41,12 @@ int main() {
 
     cout << length(head) << endl;
 
+    print(head);
+
+    removeLast(head);
+
+    print(head);
+
 
     return 0;
 }
@@ -61,4 +69,30 @@ int length(Node* head) {
         current = current->next;
     }
     return length;
+}
+
+void print (Node* head){
+    Node* current = head;
+    while (current != nullptr) {
+        cout << current->value << " ";
+        current = current->next;
+    }
+    cout << endl;
+}
+
+void removeLast(Node* &head) {
+    if (head == nullptr) {
+        return;
+    } else if (head->next == nullptr) {
+        delete head;
+        head = nullptr;
+    } else {
+        Node *current = head;
+        while (current->next->next != nullptr) {
+            current = current->next;
+        }
+        delete current->next;
+        current->next = nullptr;
+
+    }
 }
