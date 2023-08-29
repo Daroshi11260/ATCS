@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Celebrity.h"
 
 using namespace std;
 
