@@ -33,15 +33,20 @@ void insertAtEnd(Node* &head, int value);
 void removeDoubleDigitValues(Node* &head);
 void destroyList(Node* &head);
 //homework
-//void doubleValues(Node* head);
-//void doubleNodes(Node* &head);
-//void reverse(Node* &head);
+void doubleValues(Node* head);
+void doubleNodes(Node* &head);
+void reverse(Node* &head);
+//testprep
+bool mostlyOdd(Node* head);
+void moveToFront(Node* &head, int target);
+Node* duplicate(Node* head);
 
 
 int main() {
     cout << "Hello, LinkedList!" << endl;
 
     Node* head = nullptr;
+
     /*
     head = new Node;
     head->value = 4;
@@ -63,31 +68,64 @@ int main() {
         cin >> num;
     }
 
-    cout << sum(head) << endl;
-
-    cout << length(head) << endl;
-
-    insertAtBeginning(head, 27);
-    insertAtEnd(head, 81);
-
     print(head);
 
-    removeLast(head);
+    moveToFront(head, 9);
 
     print(head);
-
-    if (mostlyEven(head)) {
-        cout << "mostly even" << endl;
-    }
-
-    cout << count(head, 9) << endl;
-
-    removeDoubleDigitValues(head);
 
     destroyList(head);
 
-
     return 0;
+
+//    cout << "sum: " << sum(head) << endl;
+//
+//    cout << "length: " << length(head) << endl;
+//
+//    insertAtBeginning(head, 27);
+//    insertAtEnd(head, 81);
+//
+//    cout << "insert at beginning and end" << endl;
+//
+//    print(head);
+//
+//    removeLast(head);
+//
+//    cout << "remove last" << endl;
+//
+//    print(head);
+//
+//    cout << "even check" << endl;
+//
+//    if (mostlyEven(head)) {
+//        cout << "mostly even" << endl;
+//    }
+//
+//    cout << "count 9" << endl;
+//
+//    cout << count(head, 9) << endl;
+//
+//    cout << "remove double digit values" << endl;
+//
+//    removeDoubleDigitValues(head);
+//
+//    cout << "double values" << endl;
+//
+//    doubleValues(head);
+//
+//    print(head);
+//
+//    cout << "double nodes" << endl;
+//
+//    doubleNodes(head);
+//
+//    print(head);
+//
+//    cout << "reverse" << endl;
+//
+//    reverse(head);
+
+
 }
 
 int sum(Node* head) {
@@ -158,6 +196,7 @@ int count(Node* head, int target){
         if (current->value == target){
             count++;
         }
+        current = current->next;
     }
     return count;
 }
@@ -179,14 +218,17 @@ void insertAtEnd(Node* &head, int value){
     current->next = new Node(value);
 }
 
-void removeDoubleDigitValues(Node* &head){
+void removeDoubleDigitValues(Node* &head) {
     while (head != nullptr && head->value >= 10 && head->value <= 99) {
-        Node*save = head;
+        Node* save = head;
         head = head->next;
         delete save;
     }
+    if (head == nullptr) {
+        return;
+    }
     Node* current = head;
-    while (current != nullptr) {
+    while (current->next != nullptr) {
         if (current->next->value >= 10 && current->next->value <= 99) {
             Node* save = current->next;
             current->next = current->next->next;
@@ -203,4 +245,74 @@ void destroyList(Node* &head){
         head = head->next;
         delete save;
     }
+}
+
+void doubleValues(Node* head){
+    Node* current = head;
+    while (current != nullptr) {
+        current->value *= 2;
+        current = current->next;
+    }
+}
+
+void doubleNodes(Node* &head){
+    Node* current = head;
+    while (current != nullptr) {
+        Node* temp = current->next;
+        current->next = new Node(current->value, temp);
+        current = temp;
+    }
+}
+
+void reverse(Node* &head){
+    Node* newList = nullptr;
+    Node* current = head;
+    while (current != nullptr) {
+        insertAtBeginning(newList, current->value);
+        current = current->next;
+    }
+    destroyList(head);
+    head = newList;
+}
+
+bool mostlyOdd(Node*  head){
+    int evenNums = 0;
+    int oddNums = 0;
+    Node* temp = head;
+    while (temp != nullptr){
+        if (temp->value % 2 == 1){
+            oddNums++;
+        } else {
+            evenNums++;
+        }
+        temp = temp->next;
+    }
+    return (oddNums > evenNums);
+}
+
+void moveToFront(Node* &head, int target){
+    if (head == nullptr || head->next == nullptr)
+        return;
+    Node* temp = head;
+    while (temp->next != nullptr) {
+        if (temp->next->value == target) {
+            Node *save = temp->next;
+            temp->next = temp->next->next;
+            save->next = head;
+            head = save;
+        } else {
+            temp = temp->next;
+        }
+    }
+}
+
+Node* duplicate(Node* head){
+    Node* newHead = nullptr;
+    Node* temp = head;
+    while (temp != 0){
+        insertAtEnd(newHead, temp->value);
+        temp = temp-> next;
+    }
+
+    return newHead;
 }
