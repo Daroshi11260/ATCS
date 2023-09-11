@@ -15,7 +15,7 @@ int main() {
     cout << "welcome to assassin" << endl;
     cout << "enter names of players, one per line, blank line to stop" << endl;
     string player;
-    getline(cin, player);\
+    getline(cin, player);
     DNode* head;
     DNode* tail = new DNode;
     tail->name = player;
