@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PokemonManager2_0.dir/main.cpp.o"
-  "../PokemonManager2_0.pdb"
-  "../PokemonManager2_0"
+  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/PokemonManager2_0.exe"
+  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/PokemonManager2_0.exe.manifest"
+  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/PokemonManager2_0.pdb"
+  "CMakeFiles/PokemonManager2_0.dir/main.cpp.obj"
+  "CMakeFiles/PokemonManager2_0.dir/main.cpp.obj.d"
+  "libPokemonManager2_0.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

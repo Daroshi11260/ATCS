@@ -1,6 +1,6 @@
-The system is: Darwin - 18.7.0 - x86_64
+The system is: Windows - 10.0.22621 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Compiler: C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -8,12 +8,12 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is AppleClang, found in "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Compiler: C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -21,606 +21,456 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is AppleClang, found in "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out"
-
-Determining if the C compiler works passed with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_8a7a5/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8a7a5.dir/build.make CMakeFiles/cmTC_8a7a5.dir/build
-Building C object CMakeFiles/cmTC_8a7a5.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_8a7a5.dir/testCCompiler.c.o   -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_8a7a5
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a7a5.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8a7a5.dir/testCCompiler.c.o  -o cmTC_8a7a5 
-
+The CXX compiler identification is GNU, found in "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cc0c1/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc0c1.dir/build.make CMakeFiles/cmTC_cc0c1.dir/build
-Building C object CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
-Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-Target: x86_64-apple-darwin18.7.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
- "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
-clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
-ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
-ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
-#include "..." search starts here:
-#include <...> search starts here:
- /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
- /Library/Developer/CommandLineTools/usr/include
- /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
- /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
-End of search list.
-Linking C executable cmTC_cc0c1
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0c1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o  -o cmTC_cc0c1 
-Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-Target: x86_64-apple-darwin18.7.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_cc0c1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-450.3
-BUILD 18:16:53 Apr  5 2019
-configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+Run Build Command(s):C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_085bb/fast && C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_085bb.dir\build.make CMakeFiles/cmTC_085bb.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_085bb.dir/CMakeCCompilerABI.c.obj
+C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj -c "C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_085bb.dir\'
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_085bb.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\ROSHAN~1\AppData\Local\Temp\ccwhUKJj.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 23424b72d090e8b977a96775bde79257
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_085bb.dir\'
+ as -v -o CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj C:\Users\ROSHAN~1\AppData\Local\Temp\ccwhUKJj.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_085bb.exe
+"C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_085bb.dir\link.txt --verbose=1
+"C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_085bb.dir/objects.a
+C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_085bb.dir/objects.a @CMakeFiles\cmTC_085bb.dir\objects1.rsp
+C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_085bb.dir/objects.a -Wl,--no-whole-archive -o cmTC_085bb.exe -Wl,--out-implib,libcmTC_085bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_085bb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_085bb.'
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_085bb.exe C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_085bb.dir/objects.a --no-whole-archive --out-implib libcmTC_085bb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_085bb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_085bb.'
+mingw32-make[1]: Leaving directory 'C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp'
+
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
-    add: [/Library/Developer/CommandLineTools/usr/include]
-    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   end of search list found
-  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
-  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
-  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/include]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/include;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/include]
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cc0c1/fast ]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc0c1.dir/build.make CMakeFiles/cmTC_cc0c1.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
-  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
-  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Run Build Command(s):C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_085bb/fast && C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_085bb.dir\build.make CMakeFiles/cmTC_085bb.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_085bb.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj -c "C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
-  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
-  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
-  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_085bb.dir\']
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_085bb.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\ROSHAN~1\AppData\Local\Temp\ccwhUKJj.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
-  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
-  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
-  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_cc0c1]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0c1.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o  -o cmTC_cc0c1 ]
-  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
-  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_085bb.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj C:\Users\ROSHAN~1\AppData\Local\Temp\ccwhUKJj.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_085bb.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_085bb.exe]
+  ignore line: ["C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_085bb.dir\link.txt --verbose=1]
+  ignore line: ["C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_085bb.dir/objects.a]
+  ignore line: [C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_085bb.dir/objects.a @CMakeFiles\cmTC_085bb.dir\objects1.rsp]
+  ignore line: [C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_085bb.dir/objects.a -Wl --no-whole-archive -o cmTC_085bb.exe -Wl --out-implib libcmTC_085bb.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_cc0c1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_085bb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_085bb.']
+  link line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_085bb.exe C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_085bb.dir/objects.a --no-whole-archive --out-implib libcmTC_085bb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_cc0c1] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_cc0c1.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: []
-  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-
-
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_1eced/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1eced.dir/build.make CMakeFiles/cmTC_1eced.dir/build
-Building C object CMakeFiles/cmTC_1eced.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_1eced.dir/feature_tests.c.o   -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_1eced
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eced.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1eced.dir/feature_tests.c.o  -o cmTC_1eced 
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_ec97d/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ec97d.dir/build.make CMakeFiles/cmTC_ec97d.dir/build
-Building C object CMakeFiles/cmTC_ec97d.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_ec97d.dir/feature_tests.c.o   -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_ec97d
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec97d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec97d.dir/feature_tests.c.o  -o cmTC_ec97d 
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_1439c/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1439c.dir/build.make CMakeFiles/cmTC_1439c.dir/build
-Building C object CMakeFiles/cmTC_1439c.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_1439c.dir/feature_tests.c.o   -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_1439c
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1439c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1439c.dir/feature_tests.c.o  -o cmTC_1439c 
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_e42dc/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e42dc.dir/build.make CMakeFiles/cmTC_e42dc.dir/build
-Building CXX object CMakeFiles/cmTC_e42dc.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e42dc.dir/testCXXCompiler.cxx.o -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_e42dc
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e42dc.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e42dc.dir/testCXXCompiler.cxx.o  -o cmTC_e42dc 
+    arg [cmTC_085bb.exe] ==> ignore
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_085bb.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_085bb.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib]
+  implicit fwks: []
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f2bd3/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f2bd3.dir/build.make CMakeFiles/cmTC_f2bd3.dir/build
-Building CXX object CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
-Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-Target: x86_64-apple-darwin18.7.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
- "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
-clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
-ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"
-ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
-ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
-#include "..." search starts here:
-#include <...> search starts here:
- /Library/Developer/CommandLineTools/usr/include/c++/v1
- /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
- /Library/Developer/CommandLineTools/usr/include
- /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
- /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
-End of search list.
-Linking CXX executable cmTC_f2bd3
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2bd3.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2bd3 
-Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-Target: x86_64-apple-darwin18.7.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_f2bd3 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-450.3
-BUILD 18:16:53 Apr  5 2019
-configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+Run Build Command(s):C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_75b37/fast && C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_75b37.dir\build.make CMakeFiles/cmTC_75b37.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75b37.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75b37.dir\'
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_75b37.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\ROSHAN~1\AppData\Local\Temp\ccPYn6KM.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75b37.dir\'
+ as -v -o CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ROSHAN~1\AppData\Local\Temp\ccPYn6KM.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_75b37.exe
+"C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_75b37.dir\link.txt --verbose=1
+"C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_75b37.dir/objects.a
+C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_75b37.dir/objects.a @CMakeFiles\cmTC_75b37.dir\objects1.rsp
+C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE  -v -Wl,--whole-archive CMakeFiles\cmTC_75b37.dir/objects.a -Wl,--no-whole-archive -o cmTC_75b37.exe -Wl,--out-implib,libcmTC_75b37.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE
+COLLECT_LTO_WRAPPER=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75b37.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75b37.'
+ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_75b37.exe C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_75b37.dir/objects.a --no-whole-archive --out-implib libcmTC_75b37.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75b37.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75b37.'
+mingw32-make[1]: Leaving directory 'C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp'
+
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/Library/Developer/CommandLineTools/usr/include/c++/v1]
-    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
-    add: [/Library/Developer/CommandLineTools/usr/include]
-    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   end of search list found
-  collapse include dir [/Library/Developer/CommandLineTools/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/usr/include/c++/v1]
-  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
-  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
-  implicit include dirs: [/Library/Developer/CommandLineTools/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/include]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/include;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/include]
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f2bd3/fast ]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f2bd3.dir/build.make CMakeFiles/cmTC_f2bd3.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
-  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Run Build Command(s):C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_75b37/fast && C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_75b37.dir\build.make CMakeFiles/cmTC_75b37.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_75b37.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
-  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
-  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"]
-  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
-  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75b37.dir\']
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_75b37.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\ROSHAN~1\AppData\Local\Temp\ccPYn6KM.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /Library/Developer/CommandLineTools/usr/include/c++/v1]
-  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
-  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
-  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
-  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_f2bd3]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2bd3.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f2bd3 ]
-  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
-  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75b37.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ROSHAN~1\AppData\Local\Temp\ccPYn6KM.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_75b37.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_75b37.exe]
+  ignore line: ["C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_75b37.dir\link.txt --verbose=1]
+  ignore line: ["C:\Users\Roshan Taneja\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_75b37.dir/objects.a]
+  ignore line: [C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_75b37.dir/objects.a @CMakeFiles\cmTC_75b37.dir\objects1.rsp]
+  ignore line: [C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE  -v -Wl --whole-archive CMakeFiles\cmTC_75b37.dir/objects.a -Wl --no-whole-archive -o cmTC_75b37.exe -Wl --out-implib libcmTC_75b37.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\ROSHAN~1\AppData\Local\JETBRA~1\Toolbox\apps\CLion\ch-0\223861~1.54\bin\mingw\bin\G__~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_f2bd3 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_75b37.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75b37.']
+  link line: [ C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_75b37.exe C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_75b37.dir/objects.a --no-whole-archive --out-implib libcmTC_75b37.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_f2bd3] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_f2bd3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: [c++]
-  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+    arg [cmTC_75b37.exe] ==> ignore
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_75b37.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_75b37.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Users/ROSHAN~1/AppData/Local/JETBRA~1/Toolbox/apps/CLion/ch-0/223861~1.54/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib/gcc;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/Roshan Taneja/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/lib]
+  implicit fwks: []
 
 
-
-
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_1632a/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1632a.dir/build.make CMakeFiles/cmTC_1632a.dir/build
-Building CXX object CMakeFiles/cmTC_1632a.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_1632a.dir/feature_tests.cxx.o -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_1632a
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1632a.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1632a.dir/feature_tests.cxx.o  -o cmTC_1632a 
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_56a49/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_56a49.dir/build.make CMakeFiles/cmTC_56a49.dir/build
-Building CXX object CMakeFiles/cmTC_56a49.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_56a49.dir/feature_tests.cxx.o -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_56a49
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56a49.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56a49.dir/feature_tests.cxx.o  -o cmTC_56a49 
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_3a7e8/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3a7e8.dir/build.make CMakeFiles/cmTC_3a7e8.dir/build
-Building CXX object CMakeFiles/cmTC_3a7e8.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_3a7e8.dir/feature_tests.cxx.o -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_3a7e8
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a7e8.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a7e8.dir/feature_tests.cxx.o  -o cmTC_3a7e8 
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_7ab48/fast 
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7ab48.dir/build.make CMakeFiles/cmTC_7ab48.dir/build
-Building CXX object CMakeFiles/cmTC_7ab48.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_7ab48.dir/feature_tests.cxx.o -c "/Users/kmorris/Dropbox/Topics in CS/Unit 1 = Linked Lists/PokemonManager2.0/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_7ab48
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ab48.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ab48.dir/feature_tests.cxx.o  -o cmTC_7ab48 
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
-    Feature record: CXX_FEATURE:0cxx_alignas
-    Feature record: CXX_FEATURE:0cxx_alignof
-    Feature record: CXX_FEATURE:0cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
-    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
-    Feature record: CXX_FEATURE:0cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
-    Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
-    Feature record: CXX_FEATURE:0cxx_noexcept
-    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
-    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
-    Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
-    Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
-    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates

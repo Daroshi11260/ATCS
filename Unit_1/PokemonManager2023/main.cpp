@@ -20,5 +20,11 @@ Node* search(string name);
 int main() {
     cout << "Hello world" << endl;
 
+    ifstream f("shortlist.txt");
+    while (!f.eof()) {
+
+    }
+    f.close();
+
     return 0;
 }
