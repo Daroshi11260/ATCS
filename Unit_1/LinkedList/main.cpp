@@ -40,22 +40,16 @@ void reverse(Node* &head);
 bool mostlyOdd(Node* head);
 void moveToFront(Node* &head, int target);
 Node* duplicate(Node* head);
+//test
+int countFirstValue(Node* head);
+void removeDuplicates(Node* head);
+Node* extractBetween(Node* head, int startNum, int endNum);
 
 
 int main() {
     cout << "Hello, LinkedList!" << endl;
 
     Node* head = nullptr;
-
-    /*
-    head = new Node;
-    head->value = 4;
-    head->next = new Node;
-    head->next->value = 8;
-    head->next->next = new Node;
-    head->next->next->value = 9;
-    head->next->next->next = nullptr;
-    */
 
     cout << "enter numbers, negative or 0 to quit" << endl;
     int num;
@@ -70,60 +64,19 @@ int main() {
 
     print(head);
 
-    moveToFront(head, 9);
+    cout << countFirstValue(head) << endl;
+
+    //removeDuplicates(head);
+
+    Node* extracted = extractBetween(head, 25, 50);
 
     print(head);
+
+    print(extracted);
 
     destroyList(head);
 
     return 0;
-
-//    cout << "sum: " << sum(head) << endl;
-//
-//    cout << "length: " << length(head) << endl;
-//
-//    insertAtBeginning(head, 27);
-//    insertAtEnd(head, 81);
-//
-//    cout << "insert at beginning and end" << endl;
-//
-//    print(head);
-//
-//    removeLast(head);
-//
-//    cout << "remove last" << endl;
-//
-//    print(head);
-//
-//    cout << "even check" << endl;
-//
-//    if (mostlyEven(head)) {
-//        cout << "mostly even" << endl;
-//    }
-//
-//    cout << "count 9" << endl;
-//
-//    cout << count(head, 9) << endl;
-//
-//    cout << "remove double digit values" << endl;
-//
-//    removeDoubleDigitValues(head);
-//
-//    cout << "double values" << endl;
-//
-//    doubleValues(head);
-//
-//    print(head);
-//
-//    cout << "double nodes" << endl;
-//
-//    doubleNodes(head);
-//
-//    print(head);
-//
-//    cout << "reverse" << endl;
-//
-//    reverse(head);
 
 
 }
@@ -187,18 +140,6 @@ bool mostlyEven(Node* head){
         current = current->next;
     }
     return numEvens > numOdds;
-}
-
-int count(Node* head, int target){
-    int count = 0;
-    Node* current = head;
-    while (current != nullptr) {
-        if (current->value == target){
-            count++;
-        }
-        current = current->next;
-    }
-    return count;
 }
 
 void insertAtBeginning(Node* &head, int value){
@@ -316,3 +257,81 @@ Node* duplicate(Node* head){
 
     return newHead;
 }
+
+int count(Node* head, int target){
+    int count = 0;
+    Node* current = head;
+    while (current != nullptr) {
+        if (current->value == target){
+            count++;
+        }
+        current = current->next;
+    }
+    return count;
+}
+
+//test
+
+int countFirstValue(Node* head){
+    if (head == nullptr){
+        return 0;
+    }
+    return count(head, head->value);
+}
+
+void removeDuplicates(Node* head){
+    if(head == nullptr){
+        return;
+    }
+    Node* first = head;
+    Node* second = head->next;
+    while (second != nullptr){
+        if (first->value == second->value){
+            first->next = second->next;
+            delete second;
+            second = first->next;
+        } else {
+            first = second;
+            second = second->next;
+        }
+    }
+}
+
+Node* extractBetween(Node* head, int startNum, int endNum){
+    Node* newList = nullptr;
+    // find startNum Node
+    Node* startNode = head;
+    while(startNode != nullptr && startNode->value != startNum){
+        startNode = startNode->next;
+    }
+    if (startNode == nullptr){
+        return newList;
+    }
+
+    // find endNum Node
+    Node* endNode = startNode; // so that it doesn't find an earlier one
+    while(endNode != nullptr && endNode->value != endNum){
+        endNode = endNode->next;
+    }
+    if (endNode == nullptr){
+        return newList;
+    }
+
+    newList = startNode->next;
+
+    startNode->next = endNode;
+
+    //iterate through and "sever" the extracted list
+
+    Node* curr = newList;
+    while(curr->next != endNode){
+        curr = curr-> next;
+    }
+
+    curr -> next = nullptr;
+
+    return newList;
+
+}
+
+// 9 6 50 3 6 9 25 7 2
