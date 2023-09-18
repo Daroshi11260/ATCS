@@ -21,23 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35748ae-de40-40e8-8706-d62d2f0e71c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/ADT_Intro.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/stuff.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2eb3f7fe5ea632f3b76a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-162edb2ca108d5dada4f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-12T20-22-27-0932.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.cmake/api/v1/reply/target-ADT_Intro-Debug-60790d2c4da5ef10be32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/ADT_Intro.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/ADT_Intro.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/CMakeFiles/ADT_Intro.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/CMakeFiles/ADT_Intro.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/ADT_Intro/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roshan Taneja/Downloads/ATCS/Unit_1/PokemonManager2023&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/ADT_more_examples_2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -99,6 +84,7 @@
       <workItem from="1694709031577" duration="412000" />
       <workItem from="1694711075114" duration="22000" />
       <workItem from="1694713168640" duration="1000" />
+      <workItem from="1695056565661" duration="71000" />
     </task>
     <servers />
   </component>
