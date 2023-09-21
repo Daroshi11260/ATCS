@@ -16,7 +16,6 @@ Celebrity::Celebrity(string n, string clueString) {
             i = 0;
         }
     }
-    
 }
 
 string Celebrity::getName() {

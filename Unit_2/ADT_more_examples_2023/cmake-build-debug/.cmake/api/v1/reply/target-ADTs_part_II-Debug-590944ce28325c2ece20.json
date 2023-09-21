@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/ADT_more_examples_2023/ADTs_part_II.exe"
+			"path" : "C:/Users/yoshi/Downloads/ATCS/Unit_2/ADT_more_examples_2023/ADTs_part_II.exe"
 		},
 		{
-			"path" : "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/ADT_more_examples_2023/ADTs_part_II.pdb"
+			"path" : "C:/Users/yoshi/Downloads/ATCS/Unit_2/ADT_more_examples_2023/ADTs_part_II.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,10 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
-				},
-				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -55,7 +52,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -92,7 +90,15 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
 			]
 		}
 	],
@@ -103,6 +109,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Homework.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Homework.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -7,6 +7,8 @@
 #include <set>
 #include <map>
 
+#include "Homework.h"
+
 using namespace std;
 
 bool checkBalance(string str){
@@ -115,12 +117,61 @@ void testFriends() {
 
 }
 
-//homework
-set<int> setUnion (set<int> a, set<int> b);
-//write a function that removes all negative values from a stack
-void removeNegatives(stack<int> &s);
-//reverse a queue
-void reverseQueue(queue<int> &q);
+void testSetUnion() {
+    set<int> setA;
+    set<int> setB;
+    for (int i = 1; i <= 5; i++) {
+        setA.insert(i);
+    }
+
+    for (int i = 3; i <= 10; i++) {
+        setB.insert(i);
+    }
+
+    Homework hw;
+    set<int> setC = hw.setUnion(setA, setB);
+
+    for (auto itr = setC.begin(); itr != setC.end(); itr++) {
+        cout << *itr << " ";
+    }
+
+    cout << endl;
+}
+
+void testRemoveNegatives(){
+    stack<int> s;
+    s.push(1);
+    s.push(-2);
+    s.push(3);
+    s.push(-4);
+    s.push(5);
+    s.push(-6);
+    s.push(7);
+    s.push(-8);
+    s.push(9);
+    s.push(-10);
+    Homework hw;
+    hw.removeNegatives(s);
+    while (!s.empty()) {
+        cout << s.top() << " ";
+        s.pop();
+    }
+    cout << endl;
+}
+
+void testReverseQueue(){
+    queue<int> q;
+    q.push(1);
+    q.push(2);
+    q.push(3);
+    q.push(4);
+    Homework hw;
+    hw.reverseQueue(q);
+    while (!q.empty()) {
+        cout << q.front() << " ";
+        q.pop();
+    }
+}
 
 int main() {
     cout << "Hooray for ADTs!" << endl;
@@ -135,5 +186,11 @@ int main() {
         testSetIntersection();
     else if (choice == 3)
         testFriends();
+    else if (choice == 4)
+        testSetUnion();
+    else if (choice == 5)
+        testRemoveNegatives();
+    else if (choice == 6)
+        testReverseQueue();
     return 0;
 }
