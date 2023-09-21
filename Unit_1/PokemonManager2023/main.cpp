@@ -43,6 +43,15 @@ int main() {
         cin >> input;
         cin.ignore();
         if (input == 1) {
+            cout << "Enter a Pokemon name: ";
+            getline(cin, name);
+            cout << endl;
+            cout << "How many " << name << " do you want to add? ";
+            cin >> num;
+            cin.ignore();
+            cout << endl;
+            more(head, name, num);
+            cout << "Pokemon added." << endl;
         } else if (input == 2) {
             cout << "Enter a Pokemon name: ";
             getline(cin, name);

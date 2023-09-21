@@ -2,3 +2,4 @@
 3 Charmander
 1 Bulbasaur
 4 Pikachu
+4 Pikachuz
