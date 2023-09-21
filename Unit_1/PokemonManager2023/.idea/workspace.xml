@@ -21,14 +21,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35748ae-de40-40e8-8706-d62d2f0e71c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/../../Unit_0/Celebrities2023/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_0/Celebrities2023/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assassin/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Assassin/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+>>>>>>> 15ee9f4dbb9bbc3ecbb4fa3e53c1ecb41fc0eb40
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PokemonManager2_0.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PokemonManager2_0.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PokemonManager2_0.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PokemonManager2_0.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PokemonManager2_0.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PokemonManager2_0.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shortlist.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +61,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+<<<<<<< HEAD
+    "last_opened_file_path": "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/ADT_more_examples_2023",
+=======
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/yoshi/Downloads/ATCS/Unit_1/PokemonManager2023",
+>>>>>>> 15ee9f4dbb9bbc3ecbb4fa3e53c1ecb41fc0eb40
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -97,6 +125,9 @@
       <workItem from="1694709031577" duration="412000" />
       <workItem from="1694711075114" duration="22000" />
       <workItem from="1694713168640" duration="1000" />
+<<<<<<< HEAD
+      <workItem from="1695056565661" duration="71000" />
+=======
       <workItem from="1694744109024" duration="5508000" />
       <workItem from="1694821179400" duration="646000" />
       <workItem from="1695261146501" duration="12000" />
