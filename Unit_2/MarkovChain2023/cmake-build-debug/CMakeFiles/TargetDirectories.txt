@@ -1,0 +1,3 @@
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir
