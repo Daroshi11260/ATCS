@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/main.cpp" "CMakeFiles/MarkovChain.dir/main.cpp.obj" "gcc" "CMakeFiles/MarkovChain.dir/main.cpp.obj.d"
+  "C:/Users/yoshi/Downloads/ATCS/Unit_2/MarkovChain2023/main.cpp" "CMakeFiles/MarkovChain.dir/main.cpp.obj" "gcc" "CMakeFiles/MarkovChain.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

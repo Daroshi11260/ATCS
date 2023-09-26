@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/MarkovChain.exe"
-  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/MarkovChain.exe.manifest"
-  "C:/Users/Roshan Taneja/Downloads/ATCS/Unit_2/MarkovChain2023/MarkovChain.pdb"
+  "C:/Users/yoshi/Downloads/ATCS/Unit_2/MarkovChain2023/MarkovChain.exe"
+  "C:/Users/yoshi/Downloads/ATCS/Unit_2/MarkovChain2023/MarkovChain.exe.manifest"
+  "C:/Users/yoshi/Downloads/ATCS/Unit_2/MarkovChain2023/MarkovChain.pdb"
   "CMakeFiles/MarkovChain.dir/main.cpp.obj"
   "CMakeFiles/MarkovChain.dir/main.cpp.obj.d"
   "libMarkovChain.dll.a"

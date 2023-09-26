@@ -13,14 +13,23 @@ int main() {
     srand(time(0));
     map<string, vector<char>> markovMap;
     cout << "Hello, Markov Chain!" << endl;
-    cout << "Enter level (1-10): ";
+    cout << "Enter level (1-10):";
     int level;
     cin >> level;
-    cout << "Enter file name: ";
+    cout << "Enter file name:";
     string filename;
     cin >> filename;
 
-    buildMap(filename, level, markovMap);\
+    buildMap(filename, level, markovMap);
+
+    cout
+    << "Built Map!"
+    << endl
+    << endl
+    << "============"
+    << endl
+    << endl;
+
     cout << generateText(markovMap) << endl;
 
     // finish this up
@@ -38,7 +47,7 @@ void buildMap(string filename, int order, map<string, vector<char>> &markovMap){
 
     string key = "";
     char c;
-    while (f>>c){
+    while (f>> noskipws >> c){
         if (key.length() < order){
             key += c;
         } else {
@@ -55,9 +64,13 @@ string generateText(map<string, vector<char>> &markovMap){
     advance(iter, rand() % markovMap.size());
     key = iter->first;
     output += key;
-    while (markovMap[key].size() > 0){
+    int sentences = 0;
+    while (sentences < 5){
         char c = markovMap[key][rand() % markovMap[key].size()];
         output += c;
+        if (c == '.' || c == '?' || c == '!'){
+            sentences++;
+        }
         key = key.substr(1) + c;
     }
     return output;
