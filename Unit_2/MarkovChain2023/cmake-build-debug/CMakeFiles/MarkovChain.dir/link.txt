@@ -1,3 +1,3 @@
-C:\Users\yoshi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.9559.58\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\MarkovChain.dir/objects.a
-C:\Users\yoshi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.9559.58\bin\mingw\bin\ar.exe qc CMakeFiles\MarkovChain.dir/objects.a @CMakeFiles\MarkovChain.dir\objects1.rsp
-C:\Users\yoshi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.9559.58\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MarkovChain.dir/objects.a -Wl,--no-whole-archive -o C:\Users\yoshi\Downloads\ATCS\Unit_2\MarkovChain2023\MarkovChain.exe -Wl,--out-implib,libMarkovChain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MarkovChain.dir\linkLibs.rsp
+C:\Users\rytan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\MarkovChain.dir/objects.a
+C:\Users\rytan\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\MarkovChain.dir/objects.a @CMakeFiles\MarkovChain.dir\objects1.rsp
+C:\Users\rytan\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MarkovChain.dir/objects.a -Wl,--no-whole-archive -o C:\Users\rytan\Downloads\ATCS\Unit_2\MarkovChain2023\MarkovChain.exe -Wl,--out-implib,libMarkovChain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MarkovChain.dir\linkLibs.rsp
