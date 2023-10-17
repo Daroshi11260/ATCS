@@ -1,0 +1,9 @@
+QIs it in the United States?
+QIs it on the West Coast?
+ACupertino
+ABoston
+QIs it in Africa?
+AArusha
+QIs it in Europe?
+ABelgrade
+ABeijing

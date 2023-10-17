@@ -797,8 +797,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/rytan/Downloads/ATCS/Unit_3/BinaryTrees2023/cmake-build-debug",
-		"source" : "C:/Users/rytan/Downloads/ATCS/Unit_3/BinaryTrees2023"
+		"build" : "C:/Users/rytan/Downloads/ATCS/Unit_3/ExpressionTree/cmake-build-debug",
+		"source" : "C:/Users/rytan/Downloads/ATCS/Unit_3/ExpressionTree"
 	},
 	"version" : 
 	{

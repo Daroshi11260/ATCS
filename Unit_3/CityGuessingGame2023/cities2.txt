@@ -1,0 +1,7 @@
+QIs it in the United States?
+QIs it on the east coast?
+ABoston
+ASan Francisco
+QIs it in Africa?
+ACairo
+ABeijing

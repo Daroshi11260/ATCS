@@ -21,139 +21,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18be408c-c6a2-4ce3-bbc1-ea9744665179" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/.idea/ImplementingADTs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/reply/cache-v2-133a2529f0130f9631dd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1ba334ad266d8d1d8a5f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-eb276226f2e5e9a70d56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/shpvector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/ImplementingADTs/shpvector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2ea7d1a273fc23c087e0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-eb276226f2e5e9a70d56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/.idea/Unit2_Test_2022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/cache-v2-aa951b7a4a8c694f61e2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-25c6093ee317fda2e185.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5492de7b5fd044c60c49.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-26T20-55-44-0269.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/target-Unit2_Test_2022-Debug-3b8ffe071ad17cb99fd6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-eb276226f2e5e9a70d56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/Unit2_Test_2022.dir/main.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/Unit2_Test_2022.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BinaryTrees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/BinaryTrees" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/BinaryTrees.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/cache-v2-1b855091f40ac5704557.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4b029c9638be54aeabc1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cd1fee50e21da61d1148.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-10763df790bb4d6fa5ea.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7dc720d92739f7519656.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-26T03-40-34-0545.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-26T05-55-26-0860.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/target-MarkovChain-Debug-e3837292c0417f54b1c8.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/target-MarkovChain-Debug-45014bdb3a2889414bf2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-d72a18d5eafa557a2122.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/main.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/MarkovChain.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/MarkovChain.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/MarkovChain.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/MarkovChain2023/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit_2/Unit2_Test_2022/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0854495e500ae7a71b90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-02T17-11-21-0885.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinaryTrees.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BinaryTrees.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,9 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1Rw9NkGSg0TS8UhFdaPswUH1IbN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -180,19 +55,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rytan/Downloads/ATCS/Unit_3/BinaryTrees2023",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rytan/Downloads/ATCS/Unit_3/BinaryTrees2023&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -213,10 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1696266673191</updated>
       <workItem from="1696266674243" duration="21000" />
+      <workItem from="1696529491823" duration="3404000" />
+      <workItem from="1696613558765" duration="357000" />
+      <workItem from="1696870294722" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
 </project>

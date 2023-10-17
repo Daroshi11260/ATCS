@@ -1,0 +1,50 @@
+QIs it in North America?
+QIs it in the United States?
+QIs it on the West Coast?
+QIs it in California?
+ACupertino
+ASeattle
+QIs it in the Midwest?
+AChicago
+ANew York
+QIs it in Canada?
+AToronto
+AVancouver
+QIs it in South America?
+QIs it in Brazil?
+ARio de Janeiro
+ABuenos Aires
+QIs it in Europe?
+QIs it in Western Europe?
+QIs it in the UK?
+ALondon
+ABerlin
+QIs it in Eastern Europe?
+ABudapest
+ARome
+QIs it in Asia?
+QIs it in East Asia?
+QIs it in China?
+ABeijing
+ATokyo
+QIs it in South Asia?
+ANew Delhi
+ABangkok
+QIs it in the Middle East?
+ADubai
+AJerusalem
+QIs it in Africa?
+QIs it in Northern Africa?
+ACairo
+QIs it in Eastern Africa?
+ANairobi
+AJohannesburg
+QIs it in Australia/Oceania?
+QIs it in Australia?
+ASydney
+AWellington
+QIs it in Central America?
+APanama City
+QIs it in the Caribbean?
+AHavana
+ASanto Domingo
