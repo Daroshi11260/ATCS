@@ -1,0 +1,359 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags:  
+      
+      The output was:
+      1
+      gcc.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      gcc.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: -c 
+      
+      The output was:
+      1
+      gcc.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      gcc.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      gcc.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      gcc.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      gcc.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      gcc.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      gcc.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      gcc.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      gcc.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      gcc.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      gcc.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      gcc.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/3.26.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags:  
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      g++.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: -c 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      g++.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      g++.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      g++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      g++.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      g++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      g++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      g++.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      g++.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      g++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: -fprofile-instr-generate;-fcoverage-mapping
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      g++.exe: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+      g++.exe: error: unrecognized command-line option '-fcoverage-mapping'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-y3e3xl"
+      binary: "C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-y3e3xl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fprofile-instr-generate -fcoverage-mapping"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-y3e3xl
+        
+        Run Build Command(s):C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e4744/fast && C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e4744.dir\\build.make CMakeFiles/cmTC_e4744.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-y3e3xl'
+        Building C object CMakeFiles/cmTC_e4744.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\rytan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fprofile-instr-generate -fcoverage-mapping  -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e4744.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\rytan\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\rytan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        \x1b[01m\x1b[Kgcc.exe:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-fprofile-instr-generate\x1b[m\x1b[K'; did you mean '\x1b[01m\x1b[K-fprofile-generate\x1b[m\x1b[K'?
+        \x1b[01m\x1b[Kgcc.exe:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-fcoverage-mapping\x1b[m\x1b[K'
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_e4744.dir\\build.make:77: CMakeFiles/cmTC_e4744.dir/CMakeCCompilerABI.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-y3e3xl'
+        mingw32-make: *** [Makefile:126: cmTC_e4744/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe"
+    directories:
+      source: "C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-sjmvp9"
+      binary: "C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-sjmvp9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fprofile-instr-generate -fcoverage-mapping"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-sjmvp9
+        
+        Run Build Command(s):C:/Users/rytan/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ac3b9/fast && C:/Users/rytan/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ac3b9.dir\\build.make CMakeFiles/cmTC_ac3b9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-sjmvp9'
+        Building C object CMakeFiles/cmTC_ac3b9.dir/testCCompiler.c.obj
+        C:\\Users\\rytan\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fprofile-instr-generate -fcoverage-mapping  -fdiagnostics-color=always -o CMakeFiles\\cmTC_ac3b9.dir\\testCCompiler.c.obj -c C:\\Users\\rytan\\Downloads\\ATCS\\Unit_4\\HashTableMovieReviewer2023\\cmake-build-debug-coverage\\CMakeFiles\\CMakeScratch\\TryCompile-sjmvp9\\testCCompiler.c
+        \x1b[01m\x1b[Kgcc.exe:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-fprofile-instr-generate\x1b[m\x1b[K'; did you mean '\x1b[01m\x1b[K-fprofile-generate\x1b[m\x1b[K'?
+        \x1b[01m\x1b[Kgcc.exe:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunrecognized command-line option '\x1b[01m\x1b[K-fcoverage-mapping\x1b[m\x1b[K'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_ac3b9.dir\\build.make:77: CMakeFiles/cmTC_ac3b9.dir/testCCompiler.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-sjmvp9'
+        mingw32-make: *** [Makefile:126: cmTC_ac3b9/fast] Error 2
+        
+      exitCode: 2
+...

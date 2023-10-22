@@ -1,0 +1,5 @@
+C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug/CMakeFiles/Experiment.dir
+C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug/CMakeFiles/TestHashTable.dir
+C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug/CMakeFiles/MovieReviews.dir
+C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug/CMakeFiles/rebuild_cache.dir

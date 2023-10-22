@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HashTableMovieReviewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Experiment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Experiment-Debug-2749c45ca7f48f55db5f.json",
+					"name" : "Experiment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MovieReviews::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MovieReviews-Debug-df58d613700c5a192312.json",
+					"name" : "MovieReviews",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestHashTable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestHashTable-Debug-54d5ed5687fb89993fee.json",
+					"name" : "TestHashTable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023/cmake-build-debug",
+		"source" : "C:/Users/rytan/Downloads/ATCS/Unit_4/HashTableMovieReviewer2023"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
