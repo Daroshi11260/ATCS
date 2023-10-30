@@ -1,0 +1,3 @@
+C:\Users\rytan\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Polynomials.dir/objects.a
+C:\Users\rytan\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\Polynomials.dir/objects.a @CMakeFiles\Polynomials.dir\objects1.rsp
+C:\Users\rytan\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Polynomials.dir/objects.a -Wl,--no-whole-archive -o Polynomials.exe -Wl,--out-implib,libPolynomials.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Polynomials.dir\linkLibs.rsp

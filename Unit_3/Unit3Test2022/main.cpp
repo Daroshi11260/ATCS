@@ -54,21 +54,10 @@ bool hasPathSum(TreeNode* root, int sum){
     return root == nullptr ? sum == 0 : hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
 }
 
-int levelSumHelper(TreeNode* root, int even, int odd){
-    if (root == nullptr) {
-        return 0;
-    }
-    return root->val - levelSumHelper(root->left, odd, even) - levelSumHelper(root->right, odd, even);
-}
 
 int getLevelSumDifference(TreeNode* root){
-
     if (root == nullptr) {
         return 0;
     }
-    if (root == nullptr) {
-        return 0;
-    }
-    return root->val - getLevelSumDifference(root->left) - getLevelSum(root->right);
-
+    return root->val - getLevelSumDifference(root->left) - getLevelSumDifference(root->right);
 }

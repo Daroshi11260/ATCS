@@ -15,7 +15,14 @@ shphashtable::shphashtable(int numBuckets) {
 }
 
 shphashtable::~shphashtable() {
-
+    for (int i = 0; i < size; i ++){
+        while (buckets[i] != nullptr){
+            Node* save = buckets[i]->next;
+            delete buckets[i];
+            buckets[i] = save;
+        }
+    }
+    delete[] buckets;
 }
 
 bool shphashtable::contains(string str) {
@@ -23,7 +30,13 @@ bool shphashtable::contains(string str) {
 }
 
 void shphashtable::put(string str) {
-
+    if (contains(str))
+        return;
+    int index = getHashCode(str);
+    Node* save = buckets[index];
+    buckets[index] = new Node();
+    buckets[index]->value = str;
+    buckets[index]->next = save;
 }
 
 void shphashtable::printStats() const {
@@ -48,5 +61,5 @@ shphashtable::Node *shphashtable::getPointer(string str) const {
 }
 
 void shphashtable::rehash() {
-
+    
 }
