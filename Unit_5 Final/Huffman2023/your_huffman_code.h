@@ -1,173 +1,121 @@
-
 #ifndef HUFFMAN_YOUR_HUFFMAN_CODE_H
 #define HUFFMAN_YOUR_HUFFMAN_CODE_H
-
 #include <map>
 #include "huffman_helper.h"
 using namespace std;
-
 struct TreeNode {
     char ch;
     int weight;
     TreeNode *left;
     TreeNode *right;
 };
-struct CompareTreeNode
-{
+struct CompareTreeNode{
     bool operator()(const TreeNode* lhs, const TreeNode* rhs) const
     {
         return lhs->weight > rhs->weight;
     }
 };
 /* You need the unusual CompareTreeNode struct above if you want to make
- * a priority queue of TreeNodes.  (Hint: You do!)  This struct defines an
- * operator for comparing TreeNode*, which makes it possible for the
- * underlying heap for a priority queue to work correctly.  It's weird,
- * but here's the syntax you'll need:
-       priority_queue<TreeNode*, vector<TreeNode*>, CompareTreeNode> pq;
- * The first parameter describes what it is a priority queue of, the
- * second parameter describes the underlying heap implementation ("I'm
- * using a vector for this heap"), and the third parameter specifies a
- * way to compare TreeNode*.  Phew...
- */
-
+* a priority queue of TreeNodes. (Hint: You do!) This struct defines an * operator for comparing TreeNode*, which makes it possible
+for the * underlying heap for a priority queue to work correctly. It's weird, * but here's the syntax you'll need:
+priority_queue<TreeNode*, vector<TreeNode*>, CompareTreeNode> pq; * The first parameter describes what it is a priority queue of, the
+* second parameter describes the underlying heap implementation ("I'm * using a vector for this heap"), and the third parameter
+specifies a * way to compare TreeNode*. Phew... */
 // NOTE: The struct EncodedData is defined in the huffman_helper.h file
-
-map<char, int> freqMap(string &text);
-
-priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> makePriorityQueue(map<char, int> &fm);
-
-void huffmanAlgo(priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> &pq);
-
-void addPaths(TreeNode* root, map<char, queue<Bit>> &pathMap, queue<Bit> path);
-
-queue<Bit> createEncodedData (map<char, queue<Bit>> &pathMap, string &text, TreeNode* root);
-
-void flattenTree(TreeNode* root, EncodedData & data);
-
-EncodedData compress(string text) {
-
-    map<char, int> fm = freqMap(text);
-
-    priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> pq = makePriorityQueue(fm);
-
-    huffmanAlgo(pq);
-
-    TreeNode* root = pq.top();
-
-    map<char, queue<Bit>> pathMap;
-
-    addPaths(root, pathMap, queue<Bit>());
-
-    queue<Bit> encoded = createEncodedData(pathMap ,text, root);
-
-    EncodedData data;
-
-    data.messageBits = encoded;
-
-    queue<char> leaves;
-    queue<Bit> shape;
-
-    flattenTree(root, data);
-
-
-    EncodedData result;
-    // you've got a lot to write here
-    return result;
+void destroyTree(TreeNode* root){
+    if(root == nullptr) return;
+    destroyTree(root->left);
+    destroyTree(root->right);
+    delete root;
 }
-
-queue<Bit> createEncodedData(map<char, queue<Bit>> &pathMap, string &text, TreeNode* root){
-    queue<Bit> encoded;
-    for (char ch: text){
-        queue<Bit> path = pathMap[ch];
-        while(!path.empty()){
-            encoded.push(path.front());
-            path.pop();
-        }
+void recursivePaths(TreeNode* root, map<char, queue<Bit>>& paths, queue<Bit> currPath){
+    if(root->left == nullptr && root->right == nullptr){
+        paths[root->ch] = currPath;
+        return;
     }
-    return encoded;
+    if(root->left != nullptr){
+        queue<Bit> leftPath = currPath;
+        leftPath.push(0);
+        recursivePaths(root->left, paths, leftPath);
+    }
+    if(root->right != nullptr){
+        queue<Bit> rightPath = currPath;
+        rightPath.push(1);
+        recursivePaths(root->right, paths, rightPath);
+    }
 }
-
-void flattenTree(TreeNode* root, EncodedData & data){
-    if (root->right == nullptr && root->left == nullptr){
-        data.treeLeaves.push(root->ch);
+void populateShapeAndLeaves(EncodedData &data, TreeNode* root){
+    if(root->left == nullptr && root->right == nullptr){
         data.treeShape.push(0);
+        data.treeLeaves.push(root->ch);
         return;
     } else {
         data.treeShape.push(1);
-        flattenTree(root->left, data);
-        flattenTree(root->right, data);
-    }
-
-}
-
-void addPaths(TreeNode* root, map<char, queue<Bit>> &pathMap, queue<Bit> path){
-    if (root-> right == nullptr && root->left == nullptr){
-        pathMap[root->ch] = path;
-        return;
-    }
-
-    if (root -> left != nullptr){
-        queue<Bit> leftPath = path;
-        leftPath.push(0);
-        addPaths(root->left, pathMap, leftPath);
-    }
-
-    if (root -> right != nullptr){
-        queue<Bit> rightPath = path;
-        rightPath.push(1);
-        addPaths(root->right, pathMap, rightPath);
+        populateShapeAndLeaves(data, root->left);
+        populateShapeAndLeaves(data, root->right);
     }
 }
-
-void huffmanAlgo(priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> &pq) {
+void huffmanAlgo(priority_queue<TreeNode*, vector<TreeNode*>, CompareTreeNode> &pq){
     while(pq.size() > 1){
         TreeNode* left = pq.top();
         pq.pop();
         TreeNode* right = pq.top();
         pq.pop();
-
-        TreeNode* parent = new TreeNode;
-        parent->weight = left->weight + right->weight;
+        TreeNode* parent = new TreeNode();
         parent->left = left;
         parent->right = right;
-
+        parent->weight = left->weight + right->weight;
         pq.push(parent);
     }
 }
 
-priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> makePriorityQueue(map<char, int> &fm) {
+EncodedData createEncodedData(map<char, queue<Bit>> &code, const string &text, TreeNode* &root){
+    queue<Bit> encoded;
+    for(char ch : text){
+        queue<Bit> q = code[ch];
+        while(!q.empty()){
+            encoded.push(q.front());
+            q.pop();
+        }
+    }
+    EncodedData data;
+    data.messageBits = encoded;
+    populateShapeAndLeaves(data, root);
+    destroyTree(root); // because there's no more space in compress
+    return data;
+}
+
+priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> getPriorityQueue(map<char, int> &freq) {
     priority_queue<TreeNode*, vector<TreeNode*>, CompareTreeNode> pq;
-    for (auto it = fm.begin(); it != fm.end(); it++){
-        TreeNode* node = new TreeNode;
+    for (auto it = freq.begin(); it != freq.end(); it++) {
+        TreeNode* node = new TreeNode();
         node->ch = it->first;
         node->weight = it->second;
-        node->left = nullptr;
-        node->right = nullptr;
         pq.push(node);
     }
     return pq;
 }
 
-map<char, int> freqMap(string &text) {
-
-    map<char, int> fm;
-
-    for (char ch: text){
-        fm[ch]++;
-    }
-    return fm;
+map<char, int> getFreqMap(const string &text) {
+    map<char, int> freq;
+    for (char ch : text)
+    freq[ch]++;
+    return freq;
 }
 
-int size(TreeNode* root){
-    if (root == nullptr) return 0;
-
-    return size(root->left) + size(root->right) + 1;
+EncodedData compress(const string &text) {
+    map<char, int> freq = getFreqMap(text);
+    priority_queue<TreeNode *, vector<TreeNode *>, CompareTreeNode> pq = getPriorityQueue(freq);
+    huffmanAlgo(pq);
+    TreeNode* root = pq.top();
+    map<char, queue<Bit>> code;
+    recursivePaths(root, code, queue<Bit>());
+    return createEncodedData(code, text, root);
 }
+
 
 TreeNode* treeBuildingHelper(EncodedData& data){
     if(data.treeLeaves.empty()) return nullptr;
-
     TreeNode* root = new TreeNode;
     if(data.treeShape.front() == 0) {
         data.treeShape.pop();
@@ -183,27 +131,23 @@ TreeNode* treeBuildingHelper(EncodedData& data){
     return root;
 }
 
+
 string decompress(EncodedData& data) {
     //build huffman tree
     TreeNode* root = treeBuildingHelper(data);
     string result = "";
-
-    cout << "size : " << size(root) << endl;
+    //cout << "size : " << size(root) << endl;
     while(!data.messageBits.empty()){
         TreeNode* cur = root;
         while(cur->left != nullptr && cur->right != nullptr){
             if(data.messageBits.front() == 0)
-                cur = cur->left;
+            cur = cur->left;
             else
-                cur = cur->right;
+            cur = cur->right;
             data.messageBits.pop();
         }
         result += cur->ch;
     }
-
     return result;
 }
-
-
-
 #endif //HUFFMAN_YOUR_HUFFMAN_CODE_H
