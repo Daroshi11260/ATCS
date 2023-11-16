@@ -59,7 +59,7 @@ void shp_priority_queue::heapify_down(int index) {
     if (left_child(index) < heap.size() && heap[left_child(index)] > heap[largestIndex]) {
         largestIndex = right_child(index);
     }
-    if (right_child(index) < heap.size() && heap[right_child(index)] > heap[largestIndex])
+    if (right_child(index) < heap.size() && heap[right_child(index)] > heap[largestIndex]) {
         largestIndex = left_child(index);
     }
     if (largestIndex != index) {
